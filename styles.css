@@ -32,3 +32,39 @@ footer {
   background-color:#2c3e50;
   color:white;
 }
+
+
+/* Seccion de titulos */
+
+.main .titles {
+  margin: 10px;
+  padding: 10px;
+}
+
+.main .titles .titleOne{
+  color: #000000;
+}
+
+.main .titles .titleOne .parrafo{
+  color: #24566e;
+}
+
+.main .titles .titleTwo{
+  color: #FF0;
+}
+
+.main .titles .titleThree{
+  color: #00FF00;
+}
+
+.main .titles .titleFour{
+  color: #FFFFFF;
+}
+
+.main .titles .titleFive{
+  color: orange;
+}
+
+.main .titles .titleSix{
+  color: #3899c7;
+}
