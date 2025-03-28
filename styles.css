@@ -1,5 +1,12 @@
 /* Este es un comentario */
 
+h1, h2, h3, h4, h5, h6, .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+}
+
 #wrapperMain {
   height: 1px;
   display: flex;
@@ -31,4 +38,42 @@ main {
 footer {
   background-color:#2c3e50;
   color:white;
+}
+
+
+/* Seccion de titulos */
+
+.main .titles {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .titles .titleOne{
+  position: relative;
+}
+
+.main .titles .titleOne .parrafo{
+  position: relative;
+}
+
+.main .titles .titleTwo{
+  position: relative;
+}
+
+.main .titles .titleThree{
+  position: relative;
+}
+
+.main .titles .titleFour{
+  position: relative;
+}
+
+.main .titles .titleFive{
+  position: relative;
+}
+
+.main .titles .titleSix{
+  position: relative;
 }
