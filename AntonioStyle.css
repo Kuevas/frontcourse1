@@ -1,10 +1,15 @@
 .main{
     background-color: red;
     width: 50%;
+<<<<<<< HEAD
+    margin: 15px 15px 10px 10px;
+    padding: 10px 1px 20px 20px;
+=======
     /* margin: 50px 20px; */
     margin: 50px 20px 10px 5px;
     padding: 10px 20px 30px 40px;
     border-style: solid;
+>>>>>>> b57dcdc32e01bcb510324ed313ae1417dc72b05a
     border: 5px;
     border-style: solid;
 }
