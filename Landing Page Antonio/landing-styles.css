@@ -25,12 +25,14 @@ header .logo{
   padding: 20px;
   margin: 30px;*/
   /*border: 5px solid red;*/
-  
+  padding: 5px;
+  /*margin: 5px;*/
   align-items: center;
   display: flex;
   justify-content: end;
   /*width: 60px;*/
   height: 55px;
+  column-gap: 5px;
 
   /*margin: 10px 10px; 
   padding: 10px 10px;*/
