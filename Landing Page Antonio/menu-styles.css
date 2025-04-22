@@ -47,7 +47,7 @@ height: 35px;
 .menu div{     
     /*align-items: center;*/
     margin: 5px;
-    background: #F5F5F5;
+    /*background: #F5F5F5;*/
     border-radius: 10px;
     /*align-content: center;*/
     }
@@ -69,12 +69,12 @@ height: 35px;
 }
 .buttons button{
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 20px;
 }
  
 .iniciar{
-    background: #E3E3E3;
+    background: #b1afaf;
     border: 1px solid #767676;
 }
 .registrar{
