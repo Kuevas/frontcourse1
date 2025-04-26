@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6, .bebas-neue-regular {
   font-optical-sizing: auto;
   font-weight: lighter;
   font-style: normal;
+  font-size: 14px;
 }
 
 /*
@@ -147,4 +148,40 @@ header .menu .buttons button.register{
   margin-left: 12px;
   background-color: #2C2C2C;
   color: #fff;
+}
+
+#mobileMenu{
+  display: none;
+}
+
+#menuOptions{
+  display: block;
+}
+
+/*Media query 
+  max-width: 
+*/
+
+@media screen and (max-width: 680px) {
+  .quicksand-font-lighter {
+    font-size: 18px;
+  }
+  #mobileMenu{
+    display: block;
+    width: 40px;
+    height: 32px;
+  }
+  #mobileMenu img{
+    width: 100%;
+    height: auto;
+  }
+  #menuOptions{
+    display: none;
+  }
+  header{
+    min-width: 480px;
+  }
+  header .menu .buttons{
+    display: none;
+  }
 }

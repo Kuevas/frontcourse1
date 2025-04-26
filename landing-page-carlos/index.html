@@ -5,7 +5,6 @@
       <meta name="keywords" content="HTML, CSS, JavaScript">
       <meta name="description" content="Landing Page">
       <meta name="author" content="Carlos Cuevas">
-      <meta http-equiv="refresh" content="30">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +19,10 @@
                     <div class="logo"><img src="Block.png" /></div>
                   </div>
                   <div class="menu">
-                    <nav>
+                    <div id="mobileMenu" onClick="mostrarYOcultar()">
+                      <img src="hamburguer-menu.png" />
+                    </div>
+                    <nav id="menuOptions">
                       <a class="quicksand-font-lighter optionSelected" href="#products">Products</a>
                       <a class="quicksand-font-lighter" href="#solutions">Solutions</a>
                       <a class="quicksand-font-lighter" href="#comunity">Community</a>
@@ -37,5 +39,16 @@
                 </div>
             </header>
         </main>
+        <script>
+          function mostrarYOcultar() {
+            var x = document.getElementById("menuOptions");
+            console.log("X", x);
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }
+        </script>
     </body>
 </html>
